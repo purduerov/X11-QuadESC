@@ -2859,8 +2859,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="55.382" y1="9.943" x2="55.382" y2="7.403" width="0.8128" layer="1"/>
 <wire x1="52.842" y1="7.403" x2="55.382" y2="7.403" width="0.8128" layer="1"/>
 <polygon width="0.508" layer="16" thermals="no">
-<vertex x="58.42" y="5.461"/>
-<vertex x="58.42" y="10.16"/>
+<vertex x="56.951" y="6.176"/>
+<vertex x="56.951" y="11.629"/>
 <vertex x="53.34" y="15.24"/>
 <vertex x="52.07" y="15.24"/>
 <vertex x="48.26" y="15.24"/>
@@ -2871,7 +2871,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="43.18" y="14.198"/>
 <vertex x="46.338" y="11.04"/>
 <vertex x="51.943" y="11.04"/>
-<vertex x="51.943" y="5.461"/>
+<vertex x="51.943" y="6.176"/>
 </polygon>
 <contactref element="U$6" pad="R6-6"/>
 <contactref element="U$6" pad="R6-4"/>
@@ -3041,11 +3041,14 @@ Please make sure your boards conform to these design rules.
 <wire x1="49.022" y1="57.912" x2="49.022" y2="51.308" width="0.254" layer="16"/>
 <wire x1="32.92" y1="57.25" x2="32.92" y2="58.24" width="0.254" layer="1"/>
 <wire x1="39.878" y1="50.292" x2="32.92" y2="57.25" width="0.254" layer="1"/>
-<wire x1="50.8" y1="59.69" x2="75" y2="60" width="0.254" layer="16"/>
-<via x="75" y="60" extent="1-16" drill="0.35"/>
-<wire x1="75" y1="48" x2="75" y2="60" width="0.254" layer="1"/>
-<wire x1="91.12" y1="47.53" x2="75.47" y2="47.53" width="0.254" layer="1"/>
-<wire x1="75.47" y1="47.53" x2="75" y2="48" width="0.254" layer="1"/>
+<wire x1="91.12" y1="47.53" x2="76.47" y2="47.53" width="0.254" layer="1"/>
+<wire x1="76.47" y1="47.53" x2="76" y2="48" width="0.254" layer="1"/>
+<wire x1="76" y1="48" x2="75" y2="49" width="0.254" layer="1"/>
+<wire x1="50.8" y1="59.69" x2="73.914" y2="59.69" width="0.2032" layer="16"/>
+<via x="74.295" y="59.309" extent="1-16" drill="0.35"/>
+<wire x1="74.295" y1="59.309" x2="74.295" y2="49.705" width="0.2032" layer="1"/>
+<wire x1="74.295" y1="49.705" x2="76" y2="48" width="0.2032" layer="1"/>
+<wire x1="73.914" y1="59.69" x2="74.295" y2="59.309" width="0.2032" layer="16"/>
 </signal>
 <signal name="TIM3_CH3">
 <contactref element="U$5" pad="PB0"/>
@@ -3697,10 +3700,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="50.076" y1="47.536" x2="50.076" y2="56.792" width="0.254" layer="1"/>
 <via x="50.076" y="56.792" extent="1-16" drill="0.635"/>
 <wire x1="50.076" y1="56.792" x2="51.704" y2="58.42" width="0.254" layer="16"/>
-<wire x1="51.704" y1="58.42" x2="77.43" y2="58.42" width="0.254" layer="16"/>
-<via x="77.43" y="58.42" extent="1-16" drill="0.635"/>
-<wire x1="77.43" y1="58.42" x2="77.47" y2="58.38" width="0.254" layer="1"/>
-<wire x1="77.47" y1="58.38" x2="77.47" y2="52.07" width="0.254" layer="1"/>
+<wire x1="51.704" y1="58.42" x2="76.43" y2="58.42" width="0.254" layer="16"/>
+<via x="76.43" y="58.42" extent="1-16" drill="0.635"/>
+<wire x1="76.43" y1="58.42" x2="77.47" y2="57.38" width="0.254" layer="1"/>
+<wire x1="77.47" y1="57.38" x2="77.47" y2="52.07" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC2">
 <contactref element="U$2" pad="VCC"/>
